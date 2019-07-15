@@ -4,11 +4,13 @@ build-backend = "flit.buildapi"
 
 [tool.flit.metadata]
 module = "django_environs"
+dist-name = "django-environs"
 author = "Jarosław Wygoda"
 author-email = "jaroslaw@wygoda.me"
 home-page = "https://github.com/jwygoda/django-environs"
 requires = ["django", "environs[django]", "redbaron"]
 requires-python = ">=3.6"
+description-file = "README.md"
 classifiers = [
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3.6",
